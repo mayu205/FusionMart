@@ -1,0 +1,50 @@
+.{
+    margin:0%;
+    padding:0%;
+}
+.admin_img
+    {
+        width:100px;
+        object-fit:contain;
+    }
+    .container{
+        border: 2px solid black;
+    }
+.logo{
+    color: #ffffff ;
+    font-size: 2.2rem;
+    padding:0px;
+    font-weight:800;
+}
+h1{
+    position:sticky;
+    margin-top: 0%;
+    font-size: 2rem;
+    color:#ffffff;
+    width:100%;
+    outline:none;
+    animation: animate 5s linear infinite;
+    font-family: 'Cedarville Cursive', cursive;
+} 
+/*img{
+    height: 3rem;
+   padding: 5px;
+} */ 
+@keyFrames animate
+{
+    0%
+    {
+        color:#0e3742;
+        text-shadow: none;
+    }
+    100%
+    {
+        color:white;
+        text-shadow: 0 0 10px gray,
+         0 0 20px grey,
+         0 0 40px grey,
+         0 0 80px grey,
+         0 0 160px grey;
+    }
+
+}
